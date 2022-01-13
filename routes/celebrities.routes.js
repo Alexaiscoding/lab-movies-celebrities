@@ -43,4 +43,8 @@ router.post("/celebrities/create", (req, res, next) => {
       
   });
 
+  router.get("/movies/create",(req,res,next) => {
+    res.render("movies/new-movies")
+  })
+
 module.exports = router;
